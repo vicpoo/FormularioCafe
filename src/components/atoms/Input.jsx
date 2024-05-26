@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-const InputStyled = styled.input`
+const InputdStyled = styled.input`
+
     width: 100%;
     height: 40px;
     border: 1px gray solid;
@@ -9,10 +10,14 @@ const InputStyled = styled.input`
     color: black;
     padding: 0 10px;
 `;
-
-function Input(props) {
+function Input({ type, placeholder, value, onChange }){
     return(
-        <InputStyled type={props.type} placeholder={props.placeholder}/>
+        <InputdStyled 
+            type={type}
+            placeholder={placeholder}
+            value={value}
+            onChange={onChange}
+        />
     )
 }
 

@@ -14,9 +14,9 @@ const ButtonStyled = styled.button`
     }
 `;
 
-function Button(){
+function Button(props){
     return(
-        <ButtonStyled>Agregar Cafe</ButtonStyled>
+        <ButtonStyled onClick={props.onClick}>Agregar cafe </ButtonStyled>
     )
 }
 
