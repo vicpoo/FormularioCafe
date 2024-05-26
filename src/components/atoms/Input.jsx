@@ -6,7 +6,7 @@ const InputStyled = styled.input`
     border: 1px gray solid;
     border-radius: 5px;
     font-size: 20px;
-    color: #0308a3;
+    color: black;
     padding: 0 10px;
 `;
 
